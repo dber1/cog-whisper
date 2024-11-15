@@ -172,6 +172,7 @@ class Predictor(BasePredictor):
             "compression_ratio_threshold": compression_ratio_threshold,
             "logprob_threshold": logprob_threshold,
             "no_speech_threshold": no_speech_threshold,
+            "word_timestamps": True,
             "fp16": True,
             "verbose": False,
         }
